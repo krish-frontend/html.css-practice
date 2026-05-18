@@ -1,0 +1,31 @@
+
+.animated{
+    width: 100%;
+    /* overflow: hidden; */
+    background: rgb(247, 219, 208);
+    padding: 10px 0;
+    border-bottom: 2px solid red;
+}
+
+
+p{
+    display: block;
+    white-space: nowrap;    
+    animation: moveLeft 30s linear infinite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes moveLeft{
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+p:hover{
+    animation-play-state: paused;
+    /* background-color: white; */
+}
