@@ -1,18 +1,21 @@
 
 .animated{
-    width: 100%;
-    /* overflow: hidden; */
+    /* display: inline-block; */
+    height: 47px;
+    width: 99vw;
+    overflow: hidden;
     background: rgb(247, 219, 208);
     padding: 10px 0;
     border-bottom: 2px solid red;
 }
 
 
-p{
-    display: block;
-    white-space: nowrap;    
+#p{
+    align-items: center;
+    white-space: nowrap;   /* no wrap mean text in one line not go second */
     animation: moveLeft 30s linear infinite;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 @keyframes moveLeft{

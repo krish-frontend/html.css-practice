@@ -1,0 +1,49 @@
+
+.cont1{
+    background:image-set("homepage.png") right/cover no-repeat;
+    /* background-size: cover; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    font-size: 40px;
+    /* gap: 10px; */
+}
+
+#bokx1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    height:40%;
+    width:60%;
+    border: 2px solid white;
+    font-size: 1em;
+    padding-right: 10px;
+    
+}
+
+.two-line{    
+    margin-right: 130px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+    border: 2px red solid;
+    padding-bottom: 30px;
+}
+
+
+
+#span{
+    /* gap: 10px; */
+    font-size: 17px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+
+
