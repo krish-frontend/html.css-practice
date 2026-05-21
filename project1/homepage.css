@@ -2,7 +2,7 @@
 .cont1{
     background:image-set("homepage.png") right/cover no-repeat;
     /* background-size: cover; */
-    height: 600px;
+    height: 630px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,25 +19,27 @@
     align-items: center;
     height:40%;
     width:60%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     font-size: 1em;
     padding-right: 10px;
+    padding-top: 60px;
     
 }
 
 .two-line{    
-    margin-right: 130px;
+    margin-right: 110px;
     margin-bottom: 40px;
     align-items: flex-start;
-    border: 2px red solid;
-    padding-bottom: 30px;
+    /* border: 2px red solid; */
+    /* padding-bottom: 10px; */
+    
 }
 
 
 
 #span{
-    /* gap: 10px; */
-    font-size: 17px;
+    display: inline-block;
+    font-size: 18px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     

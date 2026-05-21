@@ -1,12 +1,19 @@
 
 .animated{
     /* display: inline-block; */
+    /* position: fixed; */
     height: 47px;
     width: 99vw;
     overflow: hidden;
     background: rgb(247, 219, 208);
     padding: 10px 0;
     border-bottom: 2px solid red;
+
+    position:sticky;
+    top:100px;
+
+    z-index:1000;
+    
 }
 
 

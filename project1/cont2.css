@@ -1,0 +1,85 @@
+
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 99vw;
+    /* margin: 20px 30px; */
+    
+    background: black;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    height: 99%;
+    width:80%;
+    background:black;
+    margin: 20px 30px;
+    color: white;
+    
+}
+
+
+.headDiv{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    /* border: 2px solid rgb(251, 246, 246); */
+    width: 90%;
+    height: 10%;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    
+}
+
+
+#divGrid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 70%;
+    width: 90%; 
+    /* border: 2px solid rgb(214, 202, 202);  */
+    gap: 150px;
+    line-height: 23px;
+    
+}
+
+.temp{
+    /* border: 2px solid rgb(186, 183, 183); */
+    width: 195px;
+    
+
+}
+
+.h1{
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    text-wrap: wrap;
+    font-weight: 300;
+
+}
+
+#knowMore{
+    text-decoration: none;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: small;
+}
+
+#knowMore:hover{
+    color: white;
+}

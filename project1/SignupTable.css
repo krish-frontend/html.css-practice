@@ -3,19 +3,22 @@
 #bokx2{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    height:90%;
-    width:40%;
-    border: 2px solid white;
-    padding-left: 20px;
+    align-items:end;
+    height:99%;
+    width:45%;
+    /* border: 2px solid white; */
+    padding-left: 8px;
+    margin-bottom: 110px;
 }
 
 #signup{
-    height:80%;
+    height:70%;
     width:70%;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 20px;
+    border-radius: 6px;
+    
 }
 
 #tableForm{
@@ -27,7 +30,7 @@
 
 th{
     font-size:16px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-block;
     text-align: left;
     width: 140px;
@@ -113,6 +116,8 @@ input,button{
 input{
     background-color: white;
     border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: medium;
     }
 
 
@@ -130,14 +135,19 @@ button{
     border: none;
     cursor: progress;
     margin-bottom: 1px;
+    font-weight: 600;
 
 }
 
 .p2{
+    display: block;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    border: 2px solid #ccc;
+    /* border: 2px solid #ccc; */
+    /* margin-bottom: 10px; */
+    margin-top: 30px;
+    margin-bottom: 10px;
     
 }
 
@@ -145,23 +155,33 @@ button{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
-        border: 2px solid black;
+        margin-top: 15px;
+        
+        /* border: 2px solid black; */
 
 }
 
 #box-1, #box-2{
-    /* width: 50%; */
-    border: 2px solid red;
-    width: 40%;
-    height: 60px;
-    padding: 10px;
+    
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border: 2px solid #ccc;
+    width: 42%;
+    height: 45px;   
+    /* padding-top: 4px; */
+    border-radius: 4px;
 }
 
-img{
+.img{        
     font-size: small;
-    width: 99%;
+    width: 100%;
+  
 }
 
+
+.marginLink{
+    margin-top: 20px;
+}
 
 
