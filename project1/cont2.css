@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 730px;
     width: 99vw;
     /* margin: 20px 30px; */
     
@@ -49,6 +49,7 @@
     /* border: 2px solid rgb(214, 202, 202);  */
     gap: 150px;
     line-height: 23px;
+    box-sizing: border-box;
     
 }
 
@@ -62,6 +63,7 @@
 .h1{
     font-size: 1.2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .p3{
@@ -69,6 +71,7 @@
     text-align: left;
     text-wrap: wrap;
     font-weight: 300;
+    color: #ccc;
 
 }
 
@@ -83,3 +86,4 @@
 #knowMore:hover{
     color: white;
 }
+
