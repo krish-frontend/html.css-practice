@@ -89,7 +89,7 @@
 }
 
 
-strong:hover{
+#strong:hover{
     color: red;
     text-decoration: underline;
 }
