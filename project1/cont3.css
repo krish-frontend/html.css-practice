@@ -8,6 +8,7 @@
     align-items: center;
     height: 1400px;
     width: 99vw; 
+    margin-top: 20px;
     
     
     
@@ -15,7 +16,7 @@
 
 .b1,.b2{
  height: 70%;
- margin-top: 5%;
+ /* margin-top: 5%;  */
  /* border: 2px solid black; */
 }
 
