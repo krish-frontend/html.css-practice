@@ -3,7 +3,7 @@
     /* display: inline-block; */
     /* position: fixed; */
     height: 47px;
-    width: 99vw;
+    width: 100%;
     overflow: hidden;
     background: rgb(247, 219, 208);
     padding: 10px 0;
@@ -38,4 +38,27 @@
 p:hover{
     animation-play-state: paused;
     /* background-color: white; */
+    cursor: pointer;
+}
+
+@media (max-width: 320px) {
+    .animated {
+        height: 40px;
+        padding: 5px 0;
+    }
+
+    #p {
+        font-size: small;
+    }    
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .animated {
+        height: 45px;
+        padding: 8px 0;
+    }
+
+    #p {
+        font-size: medium;
+    }    
 }

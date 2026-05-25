@@ -127,7 +127,7 @@
 /*for responsiveness */
 
 
-@media(max-width:480px){
+/* @media(max-width:480px){
  
         .footerDiv, .footdiv-1{
             flex-direction:row;
@@ -136,9 +136,9 @@
     
             flex-direction: column;
         }
-        /* #table2{
+        #table2{
             display: grid;
             grid-template-rows: repeat(3,1fr);
-        } */
+        }
 
-}
+} */
