@@ -41,24 +41,48 @@ p:hover{
     cursor: pointer;
 }
 
-@media (max-width: 320px) {
-    .animated {
-        height: 40px;
-        padding: 5px 0;
+/* ================= TABLET ================= */
+
+@media (max-width: 992px){
+
+    .animated{
+        height: 20px;
+        padding: 0;
     }
 
-    #p {
-        font-size: small;
-    }    
+    #p{
+        font-size: medium;
+    }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
-    .animated {
-        height: 45px;
-        padding: 8px 0;
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px){
+
+    .animated{
+        height: 20px;
+        padding: 0;
     }
 
-    #p {
-        font-size: medium;
-    }    
+    #p{
+        font-size: small;
+    }
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media (min-width:0) and (max-width: 480px){
+
+    .animated{
+        height: 10px;
+        padding-bottom: 20px;
+        /* overflow: visible; */
+    }
+
+    #p{
+        font-size: 6px;
+    }
+
 }
