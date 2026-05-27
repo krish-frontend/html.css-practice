@@ -124,51 +124,110 @@
 }
 
 
-/*for responsiveness */
+/*================= TABLET ================= */
 
+@media (max-width: 992px){
 
-/* @media(max-width:480px){
- 
-        .footerDiv, .footdiv-1{
-            flex-direction:row;
-        }
-        .footdiv-2{
-    
-            flex-direction: column;
-        }
-        #table2{
-            display: grid;
-            grid-template-rows: repeat(3,1fr);
-        }
+   
+   .cont4{
+        flex-direction: column;
+        height: fit-content;
+        flex-wrap: wrap;
+        margin: 0;
+        font-size: large;
+        text-wrap: wrap;
+    }
+   
+    .p6{
+        font-size: large;
+        text-align: center;
+        padding:0
+    }  
+    .pp6{
+        font-size: large;
+    }
 
-} */
+    .cont4-b2{
+        /* display: inline; */
+        /* font-size: smaller; */
+        align-self: center;
+    }
 
-
-
-
-@media (min-width:1200px){
-    .parent{grid-template-columns: repeat(8,1fr);}
-    .child{
-    border: 1px solid black;
-    background-color: red;
-    
+    .c4-btn{
+        font-size: medium;
+    }
 }
 
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px){
+
+   .cont4{
+        flex-direction: column;
+        height: fit-content;
+        flex-wrap: wrap;
+        margin: 0;
+        font-size: medium;
+        text-wrap: wrap;
+    }
+   
+    .p6{
+        font-size: medium;
+        text-align: center;
+        padding:0
+    }  
+    .pp6{
+        font-size: medium;
+    }
+
+    .cont4-b2{
+        /* display: inline; */
+        /* font-size: smaller; */
+        align-self: center;
+    }
+
+    .c4-btn{
+        font-size: small;
+    }
 }
 
-@media(min-width:769px) and (max-width:992px){
-    .parent{grid-template-columns: repeat(6,1fr);}
-    .child{
-    border: 1px solid black;
-    background-color: pink;
-}
+/* ================= SMALL MOBILE ================= */
 
-}
+@media (min-width:0) and (max-width: 480px){
 
-@media (min-width:480px){
-    .parent{grid-template-columns: repeat(8,1fr);}
-    .child{
-    border: 1px solid black;
-    background-color: blue;
-}
+    .footerDiv{
+        /* width: 99%; */
+        /* flex-direction: row; */
+        font-size: smaller;
+    }
+
+   
+
+
+
+    .logo2{
+        height: 20px;
+        margin: 10px;
+    }
+
+    .p5{
+        font-size: smaller;
+        margin-bottom: 10px;
+        line-height: 10px;
+    }
+
+    /* #table2{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        place-items: center;
+
+    } */
+
+    .footdiv-2{
+        width: fit-content;
+        margin-top: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }

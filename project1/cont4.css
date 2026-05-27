@@ -26,7 +26,7 @@
 .cont4-b2{
     display: grid;
     grid-template-columns:repeat(2,1fr) ;
-    /* border: 2px solid greenyellow; */
+    border: 2px solid greenyellow;
     width: 40vw;
     margin-top: 30px;
     padding-bottom: 10px;   
@@ -39,9 +39,109 @@
     background-color: white;
     cursor: pointer;
     color: black;
-     
-    
+}
+
+
+
+/*================= TABLET ================= */
+
+@media (max-width: 992px){
+
+   
+   .cont4{
+        flex-direction: column;
+        height: fit-content;
+        flex-wrap: wrap;
+        margin: 0;
+        font-size: large;
+        text-wrap: wrap;
+    }
+   
+    .p6{
+        font-size: large;
+        text-align: center;
+        padding:0
+    }  
+    .pp6{
+        font-size: large;
+    }
+
+    .cont4-b2{
+        /* display: inline; */
+        /* font-size: smaller; */
+        align-self: center;
+    }
+
+    .c4-btn{
+        font-size: medium;
+    }
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px){
+
+   .cont4{
+        flex-direction: column;
+        height: fit-content;
+        flex-wrap: wrap;
+        margin: 0;
+        font-size: medium;
+        text-wrap: wrap;
+    }
+   
+    .p6{
+        font-size: medium;
+        text-align: center;
+        padding:0
+    }  
+    .pp6{
+        font-size: medium;
+    }
+
+    .cont4-b2{
+        /* display: inline; */
+        /* font-size: smaller; */
+        align-self: center;
+    }
+
+    .c4-btn{
+        font-size: small;
+    }
+}
+
+/* ================= SMALL MOBILE ================= */
+
+@media (min-width:0) and (max-width: 480px){
+
+    .cont4{
+        flex-direction: column;
+        height: fit-content;
+        flex-wrap: wrap;
+        margin: 0;
+        font-size: small;
+        text-wrap: wrap;
+    }
+   
+    .p6{
+        font-size: small;
+        text-align: center;
+        padding:0
+    }  
+    .pp6{
+        font-size: small;
+    }
+
+    .cont4-b2{
+        display: block;
+        /* font-size: smaller; */
+        align-self: center;
+    }
+
+    .c4-btn{
+        font-size: smaller;
+    }
 
 
 }
-
