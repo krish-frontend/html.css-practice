@@ -26,7 +26,7 @@
 .cont4-b2{
     display: grid;
     grid-template-columns:repeat(2,1fr) ;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     width: 40vw;
     margin-top: 30px;
     padding-bottom: 10px;   
