@@ -165,17 +165,42 @@ select{
 
 @media (min-width:0) and (max-width: 480px){
 
+    #main-div{
+        height: auto;
+        padding: 6px 0;
+    }
+
+    .div-1{
+        width: fit-content;
+        justify-content: center;
+        padding-left: 6px;
+        margin-bottom: 6px;
+
+        
+    }
+
+    .logo{
+        width: 60px;
+        height: fit-content;
+    }
+
+    .div-2{
+        width: fit-content;
+        /* margin-left: 5px; */
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        gap:10px;
+    }
+
     .a{
         font-size: smaller;
     }
 
     select{
-        width: 150px;
-        height: 40px;
-        font-size: 14px;
-    }
-
-    .logo{
-        width: 140px;
+        width: 80px;
+        height: fit-content;
+        font-size: smaller;
     }
 }

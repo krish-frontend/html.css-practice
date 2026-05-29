@@ -57,7 +57,7 @@
         align-items: center;
         justify-content: end;
         font-size: 600;
-        width: 100%;
+        width: 90%;
     }
 
     #span{
@@ -80,7 +80,7 @@
         align-items: center;
         justify-content: start;
         font-size: larger;
-        width: 100%;
+        width: 90%;
     }
 
     #span{
@@ -101,7 +101,7 @@
         /* flex-shrink: 1; */
         align-items: center;
         font-size: smaller;
-        width: 100%;
+        width: 90%;
     }
 
     #span{

@@ -184,4 +184,130 @@ button{
     margin-top: 20px;
 }
 
+/*================= TABLET ================= */
 
+@media (max-width: 992px){
+
+   #signup{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    /* width: 80%; */
+
+    
+   }
+
+    th{
+    font-size: medium;
+    text-wrap: wrap;
+    padding: 4px;
+   }
+
+   .p1{
+        font-size: medium;
+   }
+
+   .slideTab{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;  
+    text-wrap: wrap;
+   }
+
+   .box{
+    
+    padding: 10px;
+    text-wrap: wrap;
+    
+   }
+
+   
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px){
+
+   
+
+   #signup{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+    
+   }
+
+    th{
+    font-size: small;
+    text-wrap: wrap;
+    padding: 4px;
+   }
+
+   .p1{
+        font-size: small;
+   }
+
+   .slideTab{
+    display: flex;
+   display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: auto;
+    text-wrap: wrap;
+   }
+
+   .box{
+    flex-wrap: wrap;
+    padding: 2px;
+    text-wrap: wrap;
+    
+   }
+
+}
+
+/* ================= SMALL MOBILE ================= */
+
+@media (min-width:0) and (max-width: 480px){
+
+    #bokx2{
+        font-size: small;
+        height: fit-content;
+    }
+    
+    #signup{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+    
+   }
+
+   th{
+    font-size: smaller;
+    text-wrap: wrap;
+    padding: 4px;
+   }
+
+   .p1{
+        font-size: small;
+   }
+
+   .slideTab{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: auto;
+    text-wrap: wrap;
+   }
+
+   .box{
+    flex-wrap: wrap;
+    padding: 2px;
+    text-wrap: wrap;
+    font-size: smaller;
+    
+   }   
+
+}
